@@ -1,0 +1,56 @@
+/* TEAM */
+
+Company: Premium Sliding Doors Pty Ltd
+Location: Moorebank, NSW, Australia
+Contact: sales@premiumslidingdoors.com.au
+Website: https://www.premiumslidingdoors.com.au/
+
+/* BUSINESS INFO */
+
+ABN: 49 612 731 781
+Address: 9/12 Deadman Road, Moorebank, NSW 2170
+Phone: 1300 15 15 50 / 1800 15 15 50
+Mobile: 0488 15 15 50 / 0439 15 15 50
+Email: sales@premiumslidingdoors.com.au
+Quotes: quotes@premiumcavitysliders.com.au
+
+Working Hours: Monday - Friday: 9:00 AM - 4:00 PM
+
+/* PRODUCTS */
+
+- Cavity Sliding Doors (Premium 65, 125, 150)
+- Automatic Sliding Door Systems
+- Commercial Sliding Doors
+- Sliding Door Hardware & Accessories
+- Custom Made Sliding Solutions
+
+/* ABOUT */
+
+Premium Sliding Doors is Australia's leading manufacturer of cavity sliding door systems.
+We combine European design excellence with Australian building standards to deliver
+premium quality sliding doors at competitive prices. Our products include soft-close
+mechanisms, automatic systems, and custom-made solutions for residential and commercial projects.
+
+Established to bring innovation to the Australian sliding door market, we pride ourselves
+on fast delivery, expert support, and products made in Australia for the Australian market.
+
+/* SOCIAL MEDIA */
+
+Facebook: https://www.facebook.com/premiumslidingdoors/
+Twitter: https://twitter.com/premslidingdoor
+YouTube: https://www.youtube.com/channel/UCGI07h9rlZxm-_PGNVTwZXw
+LinkedIn: https://www.linkedin.com/company/premium-sliding-doors-pty-ltd
+Pinterest: https://www.pinterest.com.au/premiumslidingdoors/
+
+/* THANKS */
+
+To our valued customers, builders, architects, and homeowners across Australia
+who trust us with their sliding door needs.
+
+/* SITE */
+
+Standards: HTML5, CSS3, JavaScript ES6
+Components: Tailwind CSS
+Software: VS Code
+
+Last update: 2026-01-29
