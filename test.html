@@ -1,3 +1,50 @@
-<a href="sms:+61422889000?&body=I'm%20interested%20in%20your%20services">
+Yo
+
+<body>
+  <a href="sms:+61422889000?body=Hello%20there!" class="sms-button">Text Us Now</a>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // 1. Detect the Operating System
+      const ua = navigator.userAgent || navigator.vendor || window.opera;
+      const isAndroid = /android/i.test(ua);
+      const isIOS = /iPad|iPhone|iPod/.test(ua) && !window.MSStream;
+  
+      let separator = null;
+      if (isAndroid) {
+          separator = "?&";
+      } else if (isIOS) {
+          separator = "&"; // ;
+      }
+  
+      // 3. Find and transform all .sms-button links
+      const smsLinks = document.querySelectorAll('a.sms-button');
+      
+      smsLinks.forEach(link => {
+          let href = link.getAttribute('href');
+          
+          // Only process if it starts with 'sms:'
+          if (href && href.startsWith('sms:')) {
+              // Find the index of the first separator (? or & or ;)
+              const bodyIndex = href.search(/[?&;]body=/);
+  
+              if (bodyIndex !== -1) {
+                  if (separator) {
+                      // Replace the existing separator with the OS-specific one
+                      const phoneNumber = href.substring(0, bodyIndex);
+                      const bodyText = href.substring(bodyIndex + 1);
+                      link.setAttribute('href', phoneNumber + separator + bodyText);
+                  } else {
+                      // Unknown device: Keep only the 'sms:+number' part
+                      link.setAttribute('href', href.substring(0, bodyIndex));
+                  }
+              }
+          }
+      });
+
+      alert("hi there");
+  });
+  </script>
+</body>
+<!--a href="sms:+61422889000?&body=I'm%20interested%20in%20your%20services">
   Text Us 2!
-</a>
+</a-->
